@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Header</h1>
+    <div id="root">
+        <!-- <h1>Hello World</h1> -->
+         <!-- If we have something here then it will be replaced with the data we are adding from js file. -->
+    </div>
+    <div>Footer</div>
+        <!-- <script>
+            const heading = document.createElement("h1");
+            heading.innerHTML = "Hello World using JS";
+        
+            const root = document.getElementById("root");
+            root.appendChild(heading);
+        </script> -->
+
+    <!-- Getting react into our project by using CDN -->
+    <!-- CDN - content delivery network -->
+    <!-- What is crossorigin -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- react-dom is the dom provided for react, a bridge b/w react and browser -->
+
+    <!-- <script>
+        const heading = React.createElement("h1", {}, "Hello world from React!");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
+    </script> -->
+    <script src="App.js"></script>
+
+    <!-- Tags order is important means if <script src="App.js"></script> is used before importing react, then it will throw error. -->
+
+</body>
+</html>
