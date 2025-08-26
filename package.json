@@ -1,0 +1,39 @@
+{
+  "name": "episode-1",
+  "version": "1.0.0",
+  "description": "React Learning Start 1",
+  "keywords": [
+    "React",
+    "Sunil",
+    "Kumar"
+  ],
+  "homepage": "https://github.com/sunil08/NReact#readme",
+  "bugs": {
+    "url": "https://github.com/sunil08/NReact/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil08/NReact.git"
+  },
+  "license": "ISC",
+  "author": "Sunil Kumar",
+  "type": "commonjs",
+  "default": "App.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "prod": "parcel build index.html ",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
+  },
+  "browserslist": [
+    "last 2 Chrome version",
+    "last 2 firefox version"
+  ]
+}

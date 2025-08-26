@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Header</h1>
+    <!-- <h1>Header</h1> -->
     <div id="root">
         <!-- <h1>Hello World</h1> -->
          <!-- If we have something here then it will be replaced with the data we are adding from js file. -->
     </div>
-    <div>Footer</div>
+    <!-- <div>Footer</div> -->
         <!-- <script>
             const heading = document.createElement("h1");
             heading.innerHTML = "Hello World using JS";
@@ -24,8 +24,8 @@
     <!-- Getting react into our project by using CDN -->
     <!-- CDN - content delivery network -->
     <!-- What is crossorigin -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
     <!-- react-dom is the dom provided for react, a bridge b/w react and browser -->
 
     <!-- <script>
@@ -33,7 +33,8 @@
         const root = ReactDOM.createRoot(document.getElementById("root"));
         root.render(heading);
     </script> -->
-    <script src="App.js"></script>
+    <script type="module" src="../Episode-1/src/Components/FoodDelivery.jsx"></script>
+    <!-- type="module" means it will be a module not a normal browser script -->
 
     <!-- Tags order is important means if <script src="App.js"></script> is used before importing react, then it will throw error. -->
 
